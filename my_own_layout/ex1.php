@@ -2,7 +2,7 @@
     $title = "Exercise 1";
     include "header.php" ?>
 
-    <h1><br><br>3.1 Write a simple PHP script to print your information (Name and your groupid). </h1>
+    <h1>3.1 Write a simple PHP script to print your information (Name and your groupid). </h1>
     <?php
     echo "Viktória Szabó <br>";
     echo "BBCAP22";

@@ -96,10 +96,13 @@
                 </p>
               </div>
             </div>
-            <div class="row justify-content-center">
-              <p class="copyright">Team 3 © 2023</p>
-            </div>
           </div>
+            <div class="row justify-content-center" id = "footer-center">
+              <p class="copyright">Viktória Szabó © 2023<br></p>
+              <p><?php
+                echo "Last modified on ".date("F d Y H:i:s.", getlastmod());
+              ?></p>
+            </div>
         </div>
       </div>
     </div>
