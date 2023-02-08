@@ -100,7 +100,12 @@
             <div class="row justify-content-center" id = "footer-center">
               <p class="copyright">Viktória Szabó © 2023<br></p>
               <p><?php
-                echo "Last modified on ".date("F d Y H:i:s.", getlastmod());
+                // echo "Last modified on ".date("F d Y H:i:s.", getlastmod());
+                //echo $_SERVER['PHP_SELF']; 
+
+              $fname = basename($_SERVER['PHP_SELF']);
+              $last_modified = filemtime($fname);
+              echo "Last modified on: " . date('l jS \o\f F Y, h:i:s A', $last_modified); 
               ?></p>
             </div>
         </div>

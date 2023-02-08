@@ -83,15 +83,26 @@ echo $n1 + $n2 + $n3;
 
 <?php
 
-$host = $_SERVER['HTTP_USER_AGENT'];
-echo $host; 
+$user_agent = $_SERVER['HTTP_USER_AGENT'];
+//echo $user_agent;
+
+if (strpos($user_agent, 'Edg') == true) {
+  echo ' You are using Microsoft Edge.';
+} 
+elseif (strpos($user_agent, 'Firefox') == true) {
+  echo ' You are using Mozilla Firefox.';
+} 
+elseif (strpos($user_agent, 'Chrome') == true) {
+  echo ' You are using Google Chrome.';
+} 
+else {
+  echo ' Your browser could not be determined. ';
+}
 
 ?>
 
 <h3>7. Write a PHP script in the footer section of your universal footer just below the Copyright 
     information to display the last modification time of a file. (Hint: Use predefined variable, 
     basename function & date function to print the date and time)</h3>
-
-    
 
 <?php include "footer.php" ?>

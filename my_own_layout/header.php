@@ -52,7 +52,7 @@
               <a class="nav-link" href="ex3.php"><b>Exercise 3</b></a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="#"><b>Exercise 4</b></a>
+              <a class="nav-link" href="controlflow.php"><b>Exercise 4</b></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"><b>Exercise 5</b></a>
