@@ -34,18 +34,23 @@
                   ></a>
                 </p>
                 <p>
-                  <a class="nav-link" href="#"
+                  <a class="nav-link" href="ex2.php"
                     ><b>Exercise 2<br /></b
                   ></a>
                 </p>
                 <p>
-                  <a class="nav-link" href="#"
+                  <a class="nav-link" href="ex3.php"
                     ><b>Exercise 3<br /></b
                   ></a>
                 </p>
                 <p>
-                  <a class="nav-link" href="#"
+                  <a class="nav-link" href="controlflow.php"
                     ><b>Exercise 4<br /></b
+                  ></a>
+                </p>
+                <p>
+                  <a class="nav-link" href="array.php"
+                    ><b>Exercise 5<br /></b
                   ></a>
                 </p>
               </div>

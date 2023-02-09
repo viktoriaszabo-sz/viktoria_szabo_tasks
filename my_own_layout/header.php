@@ -46,7 +46,7 @@
               <a class="nav-link" href="ex1.php"><b>Exercise 1</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="ex2_section.php"><b>Exercise 2</b></a>
+              <a class="nav-link" href="ex2.php"><b>Exercise 2</b></a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link" href="ex3.php"><b>Exercise 3</b></a>
@@ -55,7 +55,7 @@
               <a class="nav-link" href="controlflow.php"><b>Exercise 4</b></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><b>Exercise 5</b></a>
+              <a class="nav-link" href="array.php"><b>Exercise 5</b></a>
             </li>
           </ul>
         </div>

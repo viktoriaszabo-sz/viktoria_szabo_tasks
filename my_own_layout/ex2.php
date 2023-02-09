@@ -1,5 +1,5 @@
 <?php include "header.php" ?>
 
-<p>The task was to create my own layout</p>
+<h3>The task was to create my own layout</h3>
 
 <?php include "footer.php" ?>

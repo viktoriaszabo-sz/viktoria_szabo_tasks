@@ -1,6 +1,6 @@
 <?php include "header.php" ?>
 
-<h3> Exercise 3: Inclass exercise, variables <br><br></h3>
+<h4>4 Exercise 3: Inclass exercise, variables <br><br></h4>
 
 <h3>
     1. Create a simple html form to get Firstname and Lastname from the user and use echo echo statement to print using 
@@ -22,7 +22,7 @@
     <input type = "submit" value ="submit">
 </form>
 
-<h3> 3. Prepare a simple html table and apply bootstrap style to the table. You may use the same table that you did in 3.5.<h3>
+<h4> 3. Prepare a simple html table and apply bootstrap style to the table. You may use the same table that you did in 3.5.<h4>
 
 <table class="table table-bordered table-dark">
   <thead>
@@ -56,7 +56,7 @@
 </table>
 
 
-<h3>4. </h3>
+<h4>4. </h4>
 
 <?php
 
@@ -69,8 +69,8 @@ echo " <br> The lenght of " . $name . " is " . strlen($name);
 ?>
 
 
-<h3>5. Write a script to add up the numbers: 298, 234, 46. Use variables to store these numbers and echo 
-    statement to output your answer.</h2>
+<h4>5. Write a script to add up the numbers: 298, 234, 46. Use variables to store these numbers and echo 
+    statement to output your answer.</h4>
 <?php
 $n1 = 298;
 $n2 = 234;
@@ -79,7 +79,7 @@ $n3 = 46;
 echo $n1 + $n2 + $n3; 
 ?>
 
-<h3>6. Write a PHP script to detect the browser being used to view your pages. (Use predefined variables: $_SERVER)</h3>
+<h4>6. Write a PHP script to detect the browser being used to view your pages. (Use predefined variables: $_SERVER)</h4>
 
 <?php
 
@@ -101,8 +101,8 @@ else {
 
 ?>
 
-<h3>7. Write a PHP script in the footer section of your universal footer just below the Copyright 
+<h4>7. Write a PHP script in the footer section of your universal footer just below the Copyright 
     information to display the last modification time of a file. (Hint: Use predefined variable, 
-    basename function & date function to print the date and time)</h3>
+    basename function & date function to print the date and time)</h4>
 
 <?php include "footer.php" ?>
