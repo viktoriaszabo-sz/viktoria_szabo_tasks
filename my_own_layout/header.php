@@ -19,12 +19,7 @@
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="index.php">
-          <img
-            src="https://www.hameenlinna.fi/wp-content/uploads/2022/03/HML-Kaupunki-logo-RGB-01.png"
-            alt="logo"
-            width="40"
-            height="40"
-          />
+          Viktória Szabó
         </a>
         <button
           class="navbar-toggler"

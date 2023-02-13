@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #table{
+    color: white; 
+  }
+  #footer-center{
+    justify-content: center;
+  }
+  body {
+    background-color: rgb(36, 55, 99, 255);
+    color: white !important; 
+  }
+  h1, h2, h3 {
+    color: white !important; 
+  }
+  .navbar {
+    background-color: #ff6e31 !important;
+  }
+  #navbarSupportedContent ul {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .bottom-left {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    font-size: 70px;
+    color: white;
+  }
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+    color: white;
+  }
+  .logo {
+    text-align: center;
+  }
+  .text {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: black;
+    background: rgb(36, 55, 99, 255, 0.5);
+  }
+  
+  .container {
+    color: #ff6e31;
+  }
+  a {
+    color: white;
+  }
+  .links {
+    text-align: center;
+    display: block;
+    color: white;
+  }
+  
+  @keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+  .orange {
+    color: #ff6e31;
+  }
+  .background-color {
+    background-color: #ff6e31;
+    text-align: left;
+    display: block;
+  }
+  .copy {
+    font-size: 15px;
+  }
+  
+  #footer {
+    background-color: #ff6e31;
+    padding: 30px 0 0 0;
+    color: white !important; 
+  }
+  .shortcuts a {
+    text-align: center;
+    display: block;
+    color: white;
+  }
+  .hameenlinna-logo {
+    padding-bottom: 30px;
+  }
+  .social {
+    display: grid;
+    justify-content: center;
+  }
+  #footer a {
+    background-color: #ff6e31;
+  }
+
+  /* Media placement needs to be figured out once all the code is ready */
+  @media (max-width: 767px) {
+    #footer p,
+    h3 {
+      text-align: center;
+    }
+    #footer .hameenlinna-logo {
+      display: block;
+      margin: 0 auto;
+    }
+    #navbarSupportedContent li {
+      margin-left: auto;
+      margin-right: 0 !important;
+    }
+  }
+  
