@@ -1,6 +1,6 @@
 <?php 
 $title = "A simple CRUD app"; 
-include "../my_own_layout/header.php"?>
+include "header.php"?>
 
 
 <!-- Making a form where the user can input their data -->
@@ -12,8 +12,8 @@ include "../my_own_layout/header.php"?>
         <option value = "BBCAP22"> BBCAP22 </option>
         <option value = "BBCAP21"> BBCAP21 </option>
         <option value = "Others"> Others </option>
-    </select>
-    <input type = "submit" values = "Submit" name = "submit">
+    </select><br><br>
+    <input type = "submit" value = "Submit" name = "submit">
 </form>
 
 
@@ -36,9 +36,6 @@ if (isset($_POST['submit'])) //if the user clicks submit
     {
         echo "Error: " , $conn -> error; 
     }
-
-
-
 }
 
 ?>
@@ -47,5 +44,5 @@ if (isset($_POST['submit'])) //if the user clicks submit
 
 
 <?php 
-//include "../my_own_layout/footer.php" 
+include "footer.php" 
 ?>
