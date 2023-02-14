@@ -21,15 +21,22 @@ include "header.php"?>
 
 if (isset($_POST['submit'])) //if the user clicks submit
 {
-    $fname = $_POST['fname'];
+//isset --> checks if the variable has been set (is declared)
+//$_POST: collects data from the html form (connects PHP with HTML)
+    //since the form method was "form"
+//-->>> checks, if the data collection from the "submit" action is set into a variable
+    $fname = $_POST['fname']; // setting a new variable of the collected data from the database with the POST method 
     $lname = $_POST['lname'];
     $city = $_POST['city'];
     $group_id = $_POST['group_id'];
     include 'db.php'; 
     $sql = "insert into studentinfo (fname, lname, city, group_id)
     values ('$fname', '$lname', '$city','$group_id')";
+    //this is gonna be a query--> we'll see if the insertino can be completed
+    //we put the whole action into a variable --> this will be used in a query
 
-    if ($conn -> query($sql) === TRUE )
+    if ($conn -> query($sql) === TRUE ) //accessing database and checking the connection of the insertion-query
+                                        //if this can be done --> successfull--> information added
     {
         echo "Your information is added successfully."; 
     } else 
@@ -37,11 +44,7 @@ if (isset($_POST['submit'])) //if the user clicks submit
         echo "Error: " , $conn -> error; 
     }
 }
-
 ?>
-
-
-
 
 <?php 
 include "footer.php" 
