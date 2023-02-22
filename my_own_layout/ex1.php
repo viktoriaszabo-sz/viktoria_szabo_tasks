@@ -60,4 +60,43 @@
 
     <img src = "devs.png" alt ="image">
 
+
+
+    <script> //js starting tag
+    
+    document.write("Hello World, this is Javascript"); //semicolon can be left out 
+
+    </script>
+    <noscript>
+        Plase enable JS to view this content;
+    </noscript>
+    <input type = "button" onclick = "hello()" value = "Click me">
+
+    <script>
+        //window alert
+        //window.alert("This will trigger an alert box"); 
+        //window.alert(5+10); 
+        // document.write
+        document.write("This will trigger an alert box")
+
+    </script>
+
+    <input type = "button" onclick = "add()" value = "Click to add">
+
+    <p id = "place1" style = "color: red; background-color: yellow; "> </p>
+    <span id = "place2" style = "color: red; background-color: green; "> </span>
+
+    <script>
+        document.getElementById("place1").innerHTML = "This will go to place1"; 
+        document.getElementById("place2").innerHTML = "This will go to span"; 
+    </script>
+
+    <h2>Change background color</h2>
+
+    <form>
+        <input type = "color" name = "background" onchange = "changeColor('background', this.value)">
+    </form>
+
+
+
     <?php include "footer.php" ?>

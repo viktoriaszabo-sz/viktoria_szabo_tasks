@@ -57,6 +57,7 @@
       </div>
     </nav>
 
+    <script src = "./js/site.js"></script>
 <p><br><br></p>
 
     
