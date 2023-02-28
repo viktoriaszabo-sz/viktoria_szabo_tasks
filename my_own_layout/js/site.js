@@ -11,10 +11,34 @@ function add ()
 }
 
 //function to change the background color of the page
-function changeColor(where, newColor)
+function changeColor()
 {
-    if (where == "background") 
+    let color = document.getElementById('background').value; 
+    document.body.style.backgroundColor = color; 
+}
+
+//function to change the font color of the page
+function changeFontColor()
+{
+    let colorf = document.getElementById('font').value; 
+    document.body.style.color = colorf; 
+}
+
+function crud() 
+{
+    let fname = (document.form1.fname.value).trim(); // its removing all the spaces before + after; 
+    if (fname.length < 5)
     {
-        document.body.style.backgroundColor = newColor; 
+        alert ("First name must have at least 5 characters");
+        return false; 
+    }
+}
+function fnameVal() 
+{
+    let fname = (document.form1.fname.value).trim(); // its removing all the spaces before + after; 
+    if (fname.length < 5)
+    {
+        alert ("First name must have at least 5 characters");
+        return false; 
     }
 }

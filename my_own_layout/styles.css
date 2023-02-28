@@ -11,10 +11,10 @@
   }
   body {
     background-color: rgb(36, 55, 99, 255);
-    color: white !important; 
+    /* color: white */
   }
   h1, h2, h3 {
-    color: white !important; 
+    /* color: white */
   }
   .navbar {
     background-color: #ff6e31 !important;
@@ -33,7 +33,7 @@
   p {
     text-align: justify;
     text-justify: inter-word;
-    color: white;
+    /* color: white; */ 
   }
   .logo {
     text-align: center;
@@ -91,7 +91,7 @@
   #footer {
     background-color: #ff6e31;
     padding: 30px 0 0 0;
-    color: white !important; 
+    color: white; 
   }
   .shortcuts a {
     text-align: center;

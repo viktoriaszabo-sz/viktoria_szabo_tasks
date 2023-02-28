@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script src = "../my_own_layout/js/site.js"></script>
   </head>
   <body>
     <nav
@@ -56,7 +57,7 @@
         </div>
       </div>
     </nav>
-
+    
 <p><br><br></p>
 
     

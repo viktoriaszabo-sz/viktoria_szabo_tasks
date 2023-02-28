@@ -4,8 +4,8 @@ include "header.php"?>
 
 
 <!-- Making a form where the user can input their data -->
-<form method = "post" action = "">
-    <input type = "text" name = "fname" placeholder = "First name" required><br><br>
+<form method = "post" action = "" onsubmit ="return crud()" name = "form1">
+    <input type = "text" name = "fname" placeholder = "First name" required onblur = "fnameVal()" ><br><br>
     <input type = "text" name = "lname" placeholder = "Last name" required><br><br>
     <input type = "text" name = "city" placeholder = "City name" required><br><br>
     <select name ="group_id">
